@@ -1,4 +1,4 @@
-# Setting up callback component in react okta SDK with
+# Setting up callback component in react okta SDK and  within JWT ott-web-ap
 
 ### errorComponent
 By default, LoginCallback will display any errors from authState.error. If you wish to customise the display of such error messages, you can pass your own component as an errorComponent prop to <LoginCallback>. The authState.error value will be passed to the errorComponent as the error prop.
