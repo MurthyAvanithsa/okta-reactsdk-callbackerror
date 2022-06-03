@@ -5,7 +5,7 @@ By default, LoginCallback will display any errors from authState.error. If you w
 
 ### Error component implementation within JWT ott-web-app
 
-```react: 
+```js: 
 import React, { useEffect } from 'react';
 
 import ErrorPage from '../ErrorPage/ErrorPage';
@@ -41,7 +41,7 @@ The above component wraps ErrorPage component of jwt otp-web-app
 
 ### Use errorComponent component to send custom Error handling component 
 
- ```react: 
+ ```js: 
   <Route path="/login/callback" component={(props) => <LoginCallback {...props} errorComponent={OktaCustomError} />} />
   
  ```
