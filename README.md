@@ -40,5 +40,8 @@ export default OktaCustomError;
 The above component wraps ErrorPage component of jwt otp-web-app
 
 ### Use errorComponent component to send custom Error handling component 
-  ``` <Route path="/login/callback" component={(props) => <LoginCallback {...props} errorComponent={OktaCustomError} />} />
-  ```
+
+ ```react: 
+  <Route path="/login/callback" component={(props) => <LoginCallback {...props} errorComponent={OktaCustomError} />} />
+  
+ ```
